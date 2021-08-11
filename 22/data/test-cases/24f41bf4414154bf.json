@@ -1,0 +1,108 @@
+{
+  "uid" : "24f41bf4414154bf",
+  "name" : "test_list_articles",
+  "fullName" : "vizsgaremek.test_conduit_logged_in.Test_Conduit_Logged_In#test_list_articles",
+  "historyId" : "239845e9fb0fe2ed65679317ac513d72",
+  "time" : {
+    "start" : 1628723550257,
+    "stop" : 1628723552968,
+    "duration" : 2711
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_method_fixture_Test_Conduit_Logged_In",
+    "time" : {
+      "start" : 1628723548173,
+      "stop" : 1628723550255,
+      "duration" : 2082
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "839b6113a8b4b007",
+      "name" : "log",
+      "source" : "839b6113a8b4b007.txt",
+      "type" : "text/plain",
+      "size" : 344
+    }, {
+      "uid" : "7ef040a14ef170e4",
+      "name" : "stderr",
+      "source" : "7ef040a14ef170e4.txt",
+      "type" : "text/plain",
+      "size" : 215
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_method_fixture_Test_Conduit_Logged_In::0",
+    "time" : {
+      "start" : 1628723552968,
+      "stop" : 1628723553028,
+      "duration" : 60
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "vizsgaremek"
+  }, {
+    "name" : "suite",
+    "value" : "test_conduit_logged_in"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Conduit_Logged_In"
+  }, {
+    "name" : "host",
+    "value" : "fv-az83-188"
+  }, {
+    "name" : "thread",
+    "value" : "4387-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "vizsgaremek.test_conduit_logged_in"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "24f41bf4414154bf.json",
+  "parameterValues" : [ ]
+}
