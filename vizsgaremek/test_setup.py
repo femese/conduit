@@ -5,8 +5,7 @@ from pages.home_page import HomePage
 from pages.login_page import LoginPage
 from pages.registration_page import RegistrationPage
 import pytest
-import random
-import string
+import csv
 
 browser_options = Options()
 browser_options.add_experimental_option("excludeSwitches", ["enable-logging"])
