@@ -26,7 +26,7 @@ class Test_Setup:
         registration_page.signup_button.click()
         homepage.success_ring.find()
         browser.get(URL)
-        reader = csv.reader(open('articles.csv', 'r'), delimiter=';')
+        reader = csv.reader(open('../../vizsgaremek/articles.csv', 'r'), delimiter=';')
         for row in reader:
             navigation_bar = NavigationBar(browser)
             navigation_bar.logout_button.find()

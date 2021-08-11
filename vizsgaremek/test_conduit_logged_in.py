@@ -46,7 +46,7 @@ class Test_Conduit_Logged_In:
 
     def test_new_articles(self):
         number_of_paginator = len(self.homepage.page_list_buttons)
-        reader = csv.reader(open('articles.csv', 'r'), delimiter=';')
+        reader = csv.reader(open('../../vizsgaremek/articles.csv', 'r'), delimiter=';')
         for row in reader:
             navigation_bar = NavigationBar(driver=self.browser)
             navigation_bar.logout_button.find()
@@ -88,10 +88,10 @@ class Test_Conduit_Logged_In:
         self.homepage.article_list[0].click()
         article_page = ArticlePage(self.browser)
         txt_to_save = article_page.main_textfield.text()
-        txt_file = open("test.txt", "w")
+        txt_file = open("../../vizsgaremek/test.txt", "w")
         txt_file.write(txt_to_save)
         txt_file.close()
-        txt_file = open("test.txt", "r")
+        txt_file = open("../../vizsgaremek/test.txt", "r")
         assert txt_file.read() == txt_to_save
 
     def test_delete_article(self):
