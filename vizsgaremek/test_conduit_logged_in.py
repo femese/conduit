@@ -10,6 +10,7 @@ from pages.new_article_page import NewArticlePage
 from pages.navigation_bar import NavigationBar
 import pytest
 import csv
+import time
 
 browser_options = Options()
 browser_options.add_experimental_option("excludeSwitches", ["enable-logging"])
