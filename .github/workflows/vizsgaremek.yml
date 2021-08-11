@@ -62,8 +62,8 @@ jobs:
       - name: Archive execution artifacts
         uses: actions/upload-artifact@v2
         with:
-        name: docker-logs
-        path: ./logs
+          name: docker-logs
+          path: ./logs
             
       - name: Deploy report to Github Pages
         if: always()
