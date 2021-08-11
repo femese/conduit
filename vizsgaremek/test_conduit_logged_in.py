@@ -76,6 +76,7 @@ class Test_Conduit_Logged_In:
         self.homepage.article_list[0].click()
         article_page = ArticlePage(self.browser)
         txt_to_change = article_page.main_textfield.text()
+        article_page.edit_button.find()
         article_page.edit_button.click()
         article_edit_page = NewArticlePage(self.browser)
         article_edit_page.main_body_input.send_text_to_input(txt_to_change[:len(txt_to_change)//2].strip() + "changed")
@@ -99,6 +100,7 @@ class Test_Conduit_Logged_In:
         profile_page = ProfilePage(self.browser)
         profile_page.article_list[0].click()
         article_page = ArticlePage(self.browser)
+        article_page.delete_button.find()
         article_page.delete_button.click()
         assert (article_page.delete_popup.text() == "Deleted the article. Going home...")
         
