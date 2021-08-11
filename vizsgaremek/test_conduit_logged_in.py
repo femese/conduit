@@ -67,13 +67,13 @@ class Test_Conduit_Logged_In:
             self.homepage = HomePage(driver=self.browser)
         assert self.homepage.is_last_page_active()
 
-    def test_list_articles(self):
-        print("Articles found on the page: " + str(len(self.homepage.article_list)))
+    def test_list_articles(self):        
         assert len(self.homepage.article_list) > 0
 
     def test_change_article(self):        
         self.homepage.profile_button.click()
         profile_page = ProfilePage(self.browser)
+        time.sleep(3)
         self.homepage.article_list[0].click()
         article_page = ArticlePage(self.browser)
         txt_to_change = article_page.main_textfield.text()
@@ -100,6 +100,7 @@ class Test_Conduit_Logged_In:
     def test_delete_article(self):
         self.homepage.profile_button.click()
         profile_page = ProfilePage(self.browser)
+        time.sleep(3)
         profile_page.article_list[0].click()
         article_page = ArticlePage(self.browser)
         article_page.delete_button.find()
