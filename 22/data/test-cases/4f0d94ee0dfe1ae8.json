@@ -1,85 +1,85 @@
 {
-  "uid" : "ab008c889fedadf7",
-  "name" : "test_page_list",
-  "fullName" : "vizsgaremek.test_conduit_logged_in.Test_Conduit_Logged_In#test_page_list",
-  "historyId" : "2e8f7949cae1bb3e2fe72cadf8d8ee4b",
+  "uid" : "4f0d94ee0dfe1ae8",
+  "name" : "test_cookie",
+  "fullName" : "vizsgaremek.test_conduit.Test_Conduit#test_cookie",
+  "historyId" : "e09cd48413429697c3d645aa76b2d913",
   "time" : {
-    "start" : 1628723545526,
-    "stop" : 1628723548105,
-    "duration" : 2579
+    "start" : 1628723943142,
+    "stop" : 1628723945279,
+    "duration" : 2137
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "xunit_setup_method_fixture_Test_Conduit_Logged_In",
+    "name" : "xunit_setup_method_fixture_Test_Conduit",
     "time" : {
-      "start" : 1628723544499,
-      "stop" : 1628723545524,
-      "duration" : 1025
+      "start" : 1628723941567,
+      "stop" : 1628723943141,
+      "duration" : 1574
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : false,
     "stepsCount" : 0,
     "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
   } ],
   "testStage" : {
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "dd8d31436b15c0d3",
+      "uid" : "9fd2549ae2711722",
       "name" : "log",
-      "source" : "dd8d31436b15c0d3.txt",
+      "source" : "9fd2549ae2711722.txt",
       "type" : "text/plain",
       "size" : 344
     }, {
-      "uid" : "bcdd106adb90fa31",
+      "uid" : "d1f10c5d3ea5431b",
       "name" : "stderr",
-      "source" : "bcdd106adb90fa31.txt",
+      "source" : "d1f10c5d3ea5431b.txt",
       "type" : "text/plain",
       "size" : 215
     } ],
     "parameters" : [ ],
-    "hasContent" : true,
     "stepsCount" : 0,
     "attachmentsCount" : 2,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
   },
   "afterStages" : [ {
-    "name" : "xunit_setup_method_fixture_Test_Conduit_Logged_In::0",
+    "name" : "xunit_setup_method_fixture_Test_Conduit::0",
     "time" : {
-      "start" : 1628723548106,
-      "stop" : 1628723548171,
-      "duration" : 65
+      "start" : 1628723945279,
+      "stop" : 1628723945337,
+      "duration" : 58
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : false,
     "stepsCount" : 0,
     "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
   } ],
   "labels" : [ {
     "name" : "parentSuite",
     "value" : "vizsgaremek"
   }, {
     "name" : "suite",
-    "value" : "test_conduit_logged_in"
+    "value" : "test_conduit"
   }, {
     "name" : "subSuite",
-    "value" : "Test_Conduit_Logged_In"
+    "value" : "Test_Conduit"
   }, {
     "name" : "host",
-    "value" : "fv-az83-188"
+    "value" : "fv-az28-351"
   }, {
     "name" : "thread",
-    "value" : "4387-MainThread"
+    "value" : "4290-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -88,7 +88,7 @@
     "value" : "cpython3"
   }, {
     "name" : "package",
-    "value" : "vizsgaremek.test_conduit_logged_in"
+    "value" : "vizsgaremek.test_conduit"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -103,6 +103,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "ab008c889fedadf7.json",
+  "source" : "4f0d94ee0dfe1ae8.json",
   "parameterValues" : [ ]
 }

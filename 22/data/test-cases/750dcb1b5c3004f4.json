@@ -1,12 +1,12 @@
 {
-  "uid" : "7b6f0a2fb6297446",
-  "name" : "test_change_article",
-  "fullName" : "vizsgaremek.test_conduit_logged_in.Test_Conduit_Logged_In#test_change_article",
-  "historyId" : "bc0523a315e99e18151a0a418e47e932",
+  "uid" : "750dcb1b5c3004f4",
+  "name" : "test_delete_article",
+  "fullName" : "vizsgaremek.test_conduit_logged_in.Test_Conduit_Logged_In#test_delete_article",
+  "historyId" : "11cff2c962286171ab453a99c2f7b263",
   "time" : {
-    "start" : 1628723554108,
-    "stop" : 1628723557547,
-    "duration" : 3439
+    "start" : 1628723984038,
+    "stop" : 1628723986671,
+    "duration" : 2633
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,56 +14,56 @@
   "beforeStages" : [ {
     "name" : "xunit_setup_method_fixture_Test_Conduit_Logged_In",
     "time" : {
-      "start" : 1628723553031,
-      "stop" : 1628723554106,
-      "duration" : 1075
+      "start" : 1628723982129,
+      "stop" : 1628723984037,
+      "duration" : 1908
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : false,
     "stepsCount" : 0,
     "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
   } ],
   "testStage" : {
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "cc74338b116e8c8a",
+      "uid" : "de81754834ddbb5d",
       "name" : "log",
-      "source" : "cc74338b116e8c8a.txt",
+      "source" : "de81754834ddbb5d.txt",
       "type" : "text/plain",
       "size" : 344
     }, {
-      "uid" : "e8b275fee615fee6",
+      "uid" : "dca58169d72482a",
       "name" : "stderr",
-      "source" : "e8b275fee615fee6.txt",
+      "source" : "dca58169d72482a.txt",
       "type" : "text/plain",
       "size" : 215
     } ],
     "parameters" : [ ],
-    "hasContent" : true,
     "stepsCount" : 0,
     "attachmentsCount" : 2,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
   },
   "afterStages" : [ {
     "name" : "xunit_setup_method_fixture_Test_Conduit_Logged_In::0",
     "time" : {
-      "start" : 1628723557548,
-      "stop" : 1628723557605,
+      "start" : 1628723986671,
+      "stop" : 1628723986728,
       "duration" : 57
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : false,
     "stepsCount" : 0,
     "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
   } ],
   "labels" : [ {
     "name" : "parentSuite",
@@ -76,10 +76,10 @@
     "value" : "Test_Conduit_Logged_In"
   }, {
     "name" : "host",
-    "value" : "fv-az83-188"
+    "value" : "fv-az28-351"
   }, {
     "name" : "thread",
-    "value" : "4387-MainThread"
+    "value" : "4290-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -103,6 +103,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "7b6f0a2fb6297446.json",
+  "source" : "750dcb1b5c3004f4.json",
   "parameterValues" : [ ]
 }

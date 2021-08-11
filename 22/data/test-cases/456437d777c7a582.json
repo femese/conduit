@@ -1,12 +1,12 @@
 {
-  "uid" : "5b4bc79fec3e44c3",
+  "uid" : "456437d777c7a582",
   "name" : "test_one_article",
   "fullName" : "vizsgaremek.test_conduit_logged_in.Test_Conduit_Logged_In#test_one_article",
   "historyId" : "e512d7d9d5e47a42767783db8f69a25a",
   "time" : {
-    "start" : 1628723526447,
-    "stop" : 1628723528249,
-    "duration" : 1802
+    "start" : 1628723947274,
+    "stop" : 1628723949515,
+    "duration" : 2241
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,56 +14,56 @@
   "beforeStages" : [ {
     "name" : "xunit_setup_method_fixture_Test_Conduit_Logged_In",
     "time" : {
-      "start" : 1628723524298,
-      "stop" : 1628723526445,
-      "duration" : 2147
+      "start" : 1628723945339,
+      "stop" : 1628723947273,
+      "duration" : 1934
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : false,
     "stepsCount" : 0,
     "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
   } ],
   "testStage" : {
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "82da8aa736b049d6",
+      "uid" : "692eb7e362b477ef",
       "name" : "log",
-      "source" : "82da8aa736b049d6.txt",
+      "source" : "692eb7e362b477ef.txt",
       "type" : "text/plain",
       "size" : 344
     }, {
-      "uid" : "9aeab2c29f7e0c2b",
+      "uid" : "70104b6afdfeaa1b",
       "name" : "stderr",
-      "source" : "9aeab2c29f7e0c2b.txt",
+      "source" : "70104b6afdfeaa1b.txt",
       "type" : "text/plain",
       "size" : 215
     } ],
     "parameters" : [ ],
-    "hasContent" : true,
     "stepsCount" : 0,
     "attachmentsCount" : 2,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
   },
   "afterStages" : [ {
     "name" : "xunit_setup_method_fixture_Test_Conduit_Logged_In::0",
     "time" : {
-      "start" : 1628723528258,
-      "stop" : 1628723528324,
-      "duration" : 66
+      "start" : 1628723949515,
+      "stop" : 1628723949571,
+      "duration" : 56
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : false,
     "stepsCount" : 0,
     "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
   } ],
   "labels" : [ {
     "name" : "parentSuite",
@@ -76,10 +76,10 @@
     "value" : "Test_Conduit_Logged_In"
   }, {
     "name" : "host",
-    "value" : "fv-az83-188"
+    "value" : "fv-az28-351"
   }, {
     "name" : "thread",
-    "value" : "4387-MainThread"
+    "value" : "4290-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -103,6 +103,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "5b4bc79fec3e44c3.json",
+  "source" : "456437d777c7a582.json",
   "parameterValues" : [ ]
 }
