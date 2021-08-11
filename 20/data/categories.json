@@ -1,0 +1,39 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "NameError: name 'time' is not defined",
+      "children" : [ {
+        "name" : "test_change_article",
+        "uid" : "11f1108adc304989",
+        "parentUid" : "f2d298c75ef72f8baafdf275f5959cf0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628718931757,
+          "stop" : 1628718932444,
+          "duration" : 687
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_delete_article",
+        "uid" : "28b1a767397cde1c",
+        "parentUid" : "f2d298c75ef72f8baafdf275f5959cf0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628718939316,
+          "stop" : 1628718940016,
+          "duration" : 700
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f2d298c75ef72f8baafdf275f5959cf0"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
