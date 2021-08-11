@@ -3,6 +3,8 @@ from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
 from pages.home_page import HomePage
 from pages.login_page import LoginPage
+from pages.navigation_bar import NavigationBar
+from pages.new_article_page import NewArticlePage
 from pages.registration_page import RegistrationPage
 import pytest
 import csv
