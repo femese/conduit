@@ -1,0 +1,56 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "TypeError: can only concatenate str (not \"int\") to str",
+      "children" : [ {
+        "name" : "test_list_articles",
+        "uid" : "cc3ab32b390b76b9",
+        "parentUid" : "e055865276aa8c01ebf150c81e5da6eb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628679881874,
+          "stop" : 1628679884766,
+          "duration" : 2892
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e055865276aa8c01ebf150c81e5da6eb"
+    }, {
+      "name" : "selenium.common.exceptions.TimeoutException: Message:",
+      "children" : [ {
+        "name" : "test_change_article",
+        "uid" : "8c01f1b06c12b768",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628679887158,
+          "stop" : 1628679900563,
+          "duration" : 13405
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_delete_article",
+        "uid" : "287026f591af77e6",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628679908286,
+          "stop" : 1628679921166,
+          "duration" : 12880
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "31bb78a6a95ede3f78b260ed048910d8"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
