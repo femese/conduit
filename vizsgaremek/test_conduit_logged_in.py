@@ -68,6 +68,7 @@ class Test_Conduit_Logged_In:
         assert self.homepage.is_last_page_active()
 
     def test_list_articles(self):
+        print("Articles found on the page: " + len(self.homepage.article_list))
         assert len(self.homepage.article_list) > 0
 
     def test_change_article(self):        
