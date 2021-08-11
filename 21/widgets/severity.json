@@ -1,0 +1,111 @@
+[ {
+  "uid" : "64f311be06811f26",
+  "name" : "test_one_article",
+  "time" : {
+    "start" : 1628719202941,
+    "stop" : 1628719205735,
+    "duration" : 2794
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bb8dc8a13b6f00fd",
+  "name" : "test_save_to_file",
+  "time" : {
+    "start" : 1628719252706,
+    "stop" : 1628719255730,
+    "duration" : 3024
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "94459ff84db75d7e",
+  "name" : "test_list_articles",
+  "time" : {
+    "start" : 1628719230296,
+    "stop" : 1628719233178,
+    "duration" : 2882
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7281418d4fc25fe7",
+  "name" : "test_delete_article",
+  "time" : {
+    "start" : 1628719258001,
+    "stop" : 1628719272909,
+    "duration" : 14908
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "709ef51b3af9cd3",
+  "name" : "test_change_article",
+  "time" : {
+    "start" : 1628719235450,
+    "stop" : 1628719251336,
+    "duration" : 15886
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "41042d63e95a3186",
+  "name" : "test_cookie",
+  "time" : {
+    "start" : 1628719198421,
+    "stop" : 1628719200612,
+    "duration" : 2191
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1acf1d1c08c1be3f",
+  "name" : "test_login",
+  "time" : {
+    "start" : 1628719196506,
+    "stop" : 1628719197623,
+    "duration" : 1117
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9fecfef8434d34c3",
+  "name" : "test_registration",
+  "time" : {
+    "start" : 1628719192766,
+    "stop" : 1628719194703,
+    "duration" : 1937
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "50d477e90b59fe18",
+  "name" : "test_logout",
+  "time" : {
+    "start" : 1628719275202,
+    "stop" : 1628719276133,
+    "duration" : 931
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "35f0e762a37b0aea",
+  "name" : "test_page_list",
+  "time" : {
+    "start" : 1628719226302,
+    "stop" : 1628719229021,
+    "duration" : 2719
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "984e529c5c588ffa",
+  "name" : "test_new_articles",
+  "time" : {
+    "start" : 1628719207989,
+    "stop" : 1628719225035,
+    "duration" : 17046
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
