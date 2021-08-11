@@ -10,7 +10,6 @@ from pages.new_article_page import NewArticlePage
 from pages.navigation_bar import NavigationBar
 import pytest
 import csv
-import time
 
 browser_options = Options()
 browser_options.add_experimental_option("excludeSwitches", ["enable-logging"])
@@ -72,11 +71,7 @@ class Test_Conduit_Logged_In:
         assert len(self.homepage.article_list) > 0
 
     def test_change_article(self):        
-        self.homepage.profile_button.click()
-        profile_page = ProfilePage(self.browser)
-        time.sleep(3)
-        self.homepage.article_list[0].click()
-        article_page = ArticlePage(self.browser)
+        article_page = self.create_article()
         txt_to_change = article_page.main_textfield.text()
         article_page.edit_button.find()
         article_page.edit_button.click()
@@ -99,11 +94,7 @@ class Test_Conduit_Logged_In:
         txt_file.close()
 
     def test_delete_article(self):
-        self.homepage.profile_button.click()
-        profile_page = ProfilePage(self.browser)
-        time.sleep(3)
-        profile_page.article_list[0].click()
-        article_page = ArticlePage(self.browser)
+        article_page = self.create_article()
         article_page.delete_button.find()
         article_page.delete_button.click()
         assert (article_page.delete_popup.text() == "Deleted the article. Going home...")
@@ -111,3 +102,14 @@ class Test_Conduit_Logged_In:
     def test_logout(self):
         self.homepage.logout_button.click()
         assert self.homepage.login_button.text().strip() == "Sign in"
+        
+    def create_article(self):
+        self.homepage.logout_button.find()
+        self.homepage.article_button.click()
+        new_article_page = NewArticlePage(driver=self.browser)
+        new_article_page.title_input.send_text_to_input("Test article title")
+        new_article_page.summary_input.send_text_to_input("Test article summary")
+        new_article_page.main_body_input.send_text_to_input("Test article main text")
+        new_article_page.tags_input.send_text_to_input("test, article, tags")
+        new_article_page.publish_button.click()
+        return ArticlePage(driver=self.browser)
