@@ -40,4 +40,5 @@ class Test_Setup:
             new_article_page.tags_input.send_text_to_input(row[3])
             new_article_page.publish_button.click()
         navigation_bar.home_button.click()
+        reader.close()
         browser.close()

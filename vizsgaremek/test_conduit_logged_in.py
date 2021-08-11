@@ -58,6 +58,7 @@ class Test_Conduit_Logged_In:
             new_article_page.tags_input.send_text_to_input(row[3])
             new_article_page.publish_button.click()
         navigation_bar.home_button.click()
+        reader.close()
         assert len(self.homepage.page_list_buttons) > number_of_paginator
 
     def test_page_list(self):
@@ -68,7 +69,7 @@ class Test_Conduit_Logged_In:
         assert self.homepage.is_last_page_active()
 
     def test_list_articles(self):
-        print("Articles found on the page: " + len(self.homepage.article_list))
+        print("Articles found on the page: " + str(len(self.homepage.article_list)))
         assert len(self.homepage.article_list) > 0
 
     def test_change_article(self):        
@@ -95,6 +96,7 @@ class Test_Conduit_Logged_In:
         txt_file.close()
         txt_file = open("./vizsgaremek/test.txt", "r")
         assert txt_file.read() == txt_to_save
+        txt_file.close()
 
     def test_delete_article(self):
         self.homepage.profile_button.click()
